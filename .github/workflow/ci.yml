@@ -29,9 +29,8 @@ jobs:
         # Compile Java code
       - name: Compile Java
         run: mvn compile
-        
 
-      # Build Maven
+         # Build Maven
       - name: Build Java project with Maven
         run: mvn clean package
     # Gitleaks scan (before compila�on)
