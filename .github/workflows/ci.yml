@@ -35,4 +35,4 @@ jobs:
         run: mvn clean package
         # Gitleaks scan (before compila�on)
       - name: Run Gitleaks scan
-        uses: zricethezav/gitleaks-ac�on@v2
+        uses: zricethezav/gitleaks-action@v2
