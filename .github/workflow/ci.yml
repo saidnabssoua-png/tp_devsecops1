@@ -29,6 +29,7 @@ jobs:
         # Compile Java code
       - name: Compile Java
         run: mvn compile
+        
 
       # Build Maven
       - name: Build Java project with Maven
