@@ -36,11 +36,9 @@ jobs:
         # Gitleaks scan (before compila�on)
       - name: Run Gitleaks scan
         uses: zricethezav/gitleaks-action@v2
-      # Upload the Gitleaks report
+        # Upload the Gitleaks report
       - name: Upload Gitleaks report
         uses: ac�ons/upload-ar�fact@v4
-        with: 
-          name: gitleaks-report
-          path: results.sarif
-     
-        
+        with:
+         name: gitleaks-report
+         path: results.sarif
