@@ -34,4 +34,14 @@ jobs:
       - name: Build Java project with Maven
         run: mvn clean package
 
+       # Gitleaks scan (before compila�on)
+      - name: Run Gitleaks scan
+        Suses: zricethezav/gitleaks-ac�on@v2
+
+        # Upload the Gitleaks report
+      - name: Upload Gitleaks report
+        uses: ac�ons/upload-ar�fact@v4
+        with:
+          name: gitleaks-report
+          path: results.sarif
 
