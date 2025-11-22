@@ -40,6 +40,6 @@ jobs:
       - name: Upload Gitleaks report
         uses: actions/upload-artifact@v4
         with:
-          name: gitleaks-report
-          path: results.sarif 
+         name: gitleaks-report
+         path: results.sarif 
       
