@@ -11,7 +11,7 @@ public class DemocyberApplication {
 
     //private static final String GITHUB_TOKEN = "ghp_1234567890abcdef1234567890abcdef1234";
     private static final String SECRET_TEST = "1234567890";
-
+    //Test Docker build and local test
     public static void main(String[] args) {
         SpringApplication.run(DemocyberApplication.class, args);
     }
