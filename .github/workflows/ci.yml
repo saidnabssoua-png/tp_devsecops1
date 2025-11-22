@@ -32,9 +32,9 @@ jobs:
 
       # Build Maven
       - name: Build Java project with Maven
-        run: mvn clean package
+        run: mvn clean packages
        # Gitleaks scan (before compila�on)
       - name: Run Gitleaks scan
-        Suses: zricethezav/gitleaks-ac�on@v2
+        uses: zricethezav/gitleaks-action@v2
 
         
