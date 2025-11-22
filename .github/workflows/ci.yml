@@ -36,5 +36,4 @@ jobs:
        # Gitleaks scan (before compila�on)
       - name: Run Gitleaks scan
         uses: zricethezav/gitleaks-action@v2
-
-        
+      
